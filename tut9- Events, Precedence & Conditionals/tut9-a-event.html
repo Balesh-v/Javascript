@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #se{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>event</h1>
+    <button onclick="myfunction()">click me</button>
+
+    <p id="demo"></p>
+
+    <select  id="myselection" onchange="myfunction2()">
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Rolls-royal">rolls-royal</option>
+    </select>
+
+    <p id="demo2"></p>
+
+    <div id="se" onmouseover="myfunction3()" onmouseout="myfunction4()">hover me</div>
+    <p id="demo3"></p>
+
+    
+</body>
+<script src="tut9-a-event.js"></script>
+</html>

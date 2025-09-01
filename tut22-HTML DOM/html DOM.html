@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            height: 200px;
+            width: 200px;  
+            background: yellow;
+            position: relative;
+        }
+        #mydiv{
+            width: 50px;
+            height: 50px;
+            background: red;
+            position: absolute;
+        }
+        .dec{
+            cursor: pointer;
+        }        
+    </style>
+</head>
+<body>
+    <h1 class="heading">DOM</h1>
+    <p id="demo">Hello world</p>
+    <a href="https://www.google.com" target="_blank">Visit Google</a>
+
+
+    <ul>
+        <li>node</li>
+        <li>node</li>
+        <li>node</li>
+    </ul>
+
+    <img id="img1" src="https://www.w3schools.com/js/smiley.gif" alt="">
+    <p id="demo1"></p>
+    <button id="btn">click me</button>
+    <button id="btn1">click me</button>
+
+    <form action="" name="myform" onsubmit="return myfun()">
+           Name: <input type="text" name="fname">
+           LName: <input type="text" name="Lname">
+           <input type="submit" value="submit"><hr>
+           
+        </form>
+        
+        
+        <form action="" onsubmit=" return myfun2()">
+            <input type="text" id="demo2">
+            <input type="submit" value="submit" >
+
+        </form><hr>
+
+        <form action="/action_page.php" method="post">
+            <input type="text" name="fname" required>
+            <input type="submit" value="Submit">
+        </form><hr>
+        
+        <button onclick="myfuction()">click me</button>
+        <div id="container">
+            <div id="mydiv"></div>
+        </div>
+
+
+        <h1 class="dec" onclick="this.innerHTML = 'oppies'">click me</h1>
+        <h1 class="dec" ondblclick="myfuction(this)">click me</h1>
+          
+       <button onclick="myfuction23()">click ME</button>
+       <p id="hot"></p>
+
+    <!-- <script src="tut22-a-dom method.js"></script> -->
+    <!-- <script src="tut22-b-dom document.js"></script> -->
+    <!-- <script src="tut22-c-dom element.js"></script> -->
+    <!-- <script src="tut22-d- DOM - Changing HTML.js"></script> -->
+     <!-- <script src="tut22-e-DOM - Changing CSS.js"></script> -->
+    <!-- <script src="tutf-Dom form.js"></script> -->
+    <!-- <script src="tut22-g-dom navigatiopn.js"></script> -->
+    <!-- <script src="tut22-h- HTML DOM Animation.js"></script> -->
+    <!-- <script src="tut22-i-event.js"></script> -->
+    <script src="tut22-j-HTML DOM EventListener.js"></script>
+    
+    
+
+</body>
+</html>
