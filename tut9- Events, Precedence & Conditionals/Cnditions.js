@@ -54,3 +54,41 @@ else if(time <29){
 else{
     console.log("Good evening")
 }
+
+
+//  --------------------- ternary operaters------------------
+
+let myNmae = "Balesh"
+
+let textr = (myNmae === "Balesh") ? "true" : "false";
+console.log(textr)
+
+// -------------------- JavaScript Switch Statement -------------
+
+let day;
+let date = new Date().getDay();
+ 
+switch (date) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+
+console.log("Todye is " + day)
