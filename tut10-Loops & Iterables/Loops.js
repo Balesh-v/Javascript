@@ -42,3 +42,15 @@ do {
     console.log(fruits[n]);
     n++;
 } while (n < fruits.length);
+
+
+// ---------------------- pattern -----------------------------
+
+
+for(var i = 2; i<=5; i++){
+    var pattern = " "
+    for(var s=2; s<=i; s++){
+        pattern = pattern + "*"
+    }
+    console.log(pattern)
+}
