@@ -162,3 +162,15 @@ function getSquare(num) {
 
 let squareResult = getSquare(5);
 console.log("The square is: " + squareResult);
+
+// *==========================================================
+// * JavaScript IIFE (Immediately Invoked Function Expression)
+// * =========================================================
+
+// ? An IIFE is a function that is defined and immediately executed. It is often used to create a private scope for variables, preventing them from polluting the global scope.
+
+(function() {
+    let message = "This is an IIFE";
+    console.log(message);
+})();
+
