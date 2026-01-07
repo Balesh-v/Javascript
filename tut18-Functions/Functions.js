@@ -174,3 +174,37 @@ console.log("The square is: " + squareResult);
     console.log(message);
 })();
 
+
+// *==========================================================
+// * Fat Arrow Functions
+// * =========================================================
+
+// ? Fat arrow functions, introduced in ES6, provide a more concise syntax for writing functions. They are particularly useful for writing short functions and maintaining the context of `this`.
+
+// ! Example of Fat Arrow Function
+
+const add = (a,b) =>{
+    return a + b;
+}
+
+let sumResult = add(10, 20);
+console.log("The sum using fat arrow function is: " + sumResult);
+
+// Todo: Note
+
+// ? if the fuction body contains only a single expression, you can omit the curly braces and the return keyword:
+
+const multiply = (x, y) => x * y;
+
+let productResult = multiply(5, 10);
+console.log("The product using fat arrow function is: " + productResult);
+
+// ? if there is only one parameter, the parentheses can also be omitted:
+
+const squareNum = x => x * x;
+
+let squareResultArrow = squareNum(7);
+console.log("The square using fat arrow function is: " + squareResultArrow);
+
+
+
