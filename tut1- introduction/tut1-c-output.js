@@ -6,3 +6,10 @@ let c = a + b;
 console.log(c)
 
 // window.print()
+
+const sum = (a , b) =>{
+    return a + b;
+}
+
+let result = sum(10, 20);
+console.log(result)
