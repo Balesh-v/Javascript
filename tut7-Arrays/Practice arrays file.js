@@ -126,3 +126,29 @@ vegetables.splice(2, 1); // at index 2, remove 1 element
 console.log("After Removing:", vegetables);
 
 // *-----------------------------------------------------------------
+// * Searching an arrays
+// *-----------------------------------------------------------------
+
+
+//? searching and filter arrays
+
+//? : for searching  we have - indexof lastindexof and include
+
+// ? 1 : The indexOf() method searches an array for an element value and returns its position.
+
+const arr =  ["Ram" , "Sita" , "Krishana" , "Radha" , "Sita"]
+console.log(arr.indexOf("Sita"))
+
+//? 2 : Array.lastIndexOf() is the same as Array.indexOf(), but returns the position of the last occurrence of the specified element.
+
+console.log(arr.lastIndexOf("Sita"))
+
+// ? 3: ECMAScript 2016 introduced Array.includes() to arrays. This allows us to check if an element is present in an array (including NaN, unlike indexOf).
+
+console.log(arr.includes("Sita"))
+
+
+// *-------------------------------
+// * filter method 
+// *-------------------------------
+
