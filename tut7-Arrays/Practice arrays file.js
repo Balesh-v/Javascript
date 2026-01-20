@@ -152,3 +152,33 @@ console.log(arr.includes("Sita"))
 // * filter method 
 // *-------------------------------
 
+const method = [1, 3, 59  , 3 , 59 , 68 ,4]
+
+
+// ? 1 . The find() method returns the value of the first array element that passes a test function. This example finds (returns the value of) the first element that is larger than 10:
+
+
+let val = method.find((currentvalue)=>{
+    return currentvalue > 10
+})
+
+console.log(val)
+
+// ? 2 . The findIndex() method returns the index of the first array element that passes a test function. This example finds the index of the first element that is larger than 10:
+
+
+let sal = method.findIndex((currentvalue)=>{
+    return currentvalue > 10
+})
+
+console.log(sal)
+
+// ? . The filter() method creates a new array with array elements that pass a test.This example creates a new array from elements with a value larger than 20:
+
+const num = [45, 4, 9, 16, 25];
+
+let unms = num.filter((currentvalue)=>{
+    return currentvalue > 20
+})
+
+console.log(unms)
